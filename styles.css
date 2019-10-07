@@ -1,0 +1,61 @@
+.Header {
+  background-color: rgb(48, 47, 47);
+  color: white;
+}
+
+.Intro {
+  margin: auto;
+  width: 60%;
+}
+.Work,
+.AboutMe {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutMe img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.Work p {
+  display: flex;
+  font-family: "Calibri";
+  margin-left: 5%;
+  padding: 0;
+  line-height: 12px;
+}
+
+.Work hr {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(128, 5, 5);
+  height: 1px;
+}
+
+.Work hr:first-of-type {
+  background-color: rgb(78, 78, 78);
+  height: 4px;
+}
+
+.Work h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cambria";
+}
+
+.AboutMe p:nth-child(-n + 2) {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  font-family: "Calibri";
+  font-weight: bold;
+}
+
+.AboutMe p:nth-child(n + 3) {
+  font-style: italic;
+}
