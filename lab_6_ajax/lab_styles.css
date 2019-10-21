@@ -77,6 +77,7 @@ h3 {
   max-width: 450px;
 }
 
+ol {list-style: circle inside}
 li {list-style: circle inside}
 
 .button {
