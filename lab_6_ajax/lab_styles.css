@@ -77,6 +77,8 @@ h3 {
   max-width: 450px;
 }
 
+li {list-style: circle inside}
+
 .button {
   background-color: #ffc477;
   -moz-border-radius: 11px;
