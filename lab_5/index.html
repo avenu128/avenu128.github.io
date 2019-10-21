@@ -271,12 +271,19 @@
         { name: "Zimbabwe", code: "ZW" }
       ];
 
+      function loadData() {
+        fetch('ajax_sample.json')
+          .then(res => res.json())
+          .then(res => res.map(c => c.code))
+          .then(res => res.map()
+          .then(codes => {
+            document.querySelector(".cList").innerText = codes
+          });
+
+      }
+
       sessionStorage.setItem("countries_arr", JSON.stringify(countries));
 
-      /*const el = document.querySelector('button');
-      el.addEventListener('click', (evt) => {
-
-      })*/
       function getRandomIntInclusive(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
